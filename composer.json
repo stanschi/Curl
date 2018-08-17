@@ -1,0 +1,21 @@
+{
+    "name": "unifun/curl",
+    "description": "Curl Helper",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Nick Shtansky",
+            "email": "n.shtanschi@unifun.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php":"~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Unifun\\Curl\\":"src/"
+        }
+    }
+}
